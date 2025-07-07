@@ -8,17 +8,14 @@ Proyek ini adalah implementasi backend untuk Sistem Perizinan Acara menggunakan 
 
 Berikut adalah teknologi dan versi yang digunakan dalam proyek ini:
 
-| Teknologi           | Versi          | Tujuan  |
-| :------------------ | :------------- | :------ | ------------------------------------ |
-| **Runtime**         | Node.js        | `v20.x` | Lingkungan eksekusi JavaScript       |
-| **Framework**       | Express.js     | `v4.x`  | Kerangka kerja web server            |
-| **Database**        | MySQL          | `v8.x`  | Sistem manajemen database relasional |
-| **API**             | GraphQL        | `v16.x` | Bahasa query untuk API               |
-| **Library**         | `graphql-http` | `v1.x`  | Handler GraphQL untuk server Node.js |
-| **Database Driver** | `mysql2`       | `v3.x`  | Driver MySQL untuk Node.js           |
-| **Authentication**  | `jsonwebtoken` | `v9.x`  | Implementasi JSON Web Token (JWT)    |
-| **Security**        | `bcryptjs`     | `v2.x`  | Hashing password                     |
-| **Environment**     | `dotenv`       | `v16.x` | Mengelola environment variables      |
+Runtime: Node.js
+Framework: Express.js
+Database: MySQL
+API: GraphQL
+Library: graphql-http
+Database Driver: mysql2
+Auth: jsonwebtoken
+Security: bcrypt.js
 
 ## **Setup dan Installation Instructions**
 
@@ -50,11 +47,9 @@ Berikut adalah teknologi dan versi yang digunakan dalam proyek ini:
 Untuk menyiapkan database, ikuti langkah-langkah berikut:
 
 1.  **Buat Database**
-    Hubungkan ke server MySQL Anda dan jalankan query berikut:
-
-    CREATE DATABASE IF NOT EXISTS backend_test;
-
-2.  **Buat Tabel (Schema)**
+    Create tabel dengan nama backend_test
+2.  **Buat Tabel **
+    Buat tabel berdasarkan spesifikasi dokumen yang telah disediakan pada halaman MyAdmin MySQL
 
 ## **API Documentation **
 
